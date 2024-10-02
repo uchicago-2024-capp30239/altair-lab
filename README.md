@@ -16,7 +16,9 @@ Pick either path below, if you already have `poetry` you may use that, otherwise
 
 3. `poetry run jupyter lab` will run Jupyter, open your browser, and you can browse to the .ipynb file that you need to edit.  That file contains all instructions.
 
-4. Be sure to check in the created `pyproject.toml`/`poetry.lock` files.
+4. Install other libraries you will use: `poetry add altair` and `poetry add pandas` or `poetry add polars`
+
+5. Be sure to check in the created `pyproject.toml`/`poetry.lock` files.
 
 ## `uv`
 
@@ -28,7 +30,9 @@ Pick either path below, if you already have `poetry` you may use that, otherwise
 
 3. `uv run jupyter lab` will run Jupyter, open your browser, and you can browse to the .ipynb file that you need to edit.  That file contains all instructions.
 
-4. Be sure to check in the created `pyproject.toml`/`uv.lock` files.
+4. Install other libraries you will use: `uv add altair` and `uv add pandas` or `uv add polars`
+
+5. Be sure to check in the created `pyproject.toml`/`uv.lock` files.
 
 ## Submission
 
