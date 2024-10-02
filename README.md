@@ -48,6 +48,4 @@ You may also try this to clean up your code automatically:
 - `uv add ruff`/`poetry add ruff`
 - `ruff format altair_lab.ipynb`
 
-Once satisfied, commit and submit your repository on Gradescope.
-
-There are no autograder tests.
+Once satisfied, commit to GitHub.  We will not use Gradescope for this assignment.
